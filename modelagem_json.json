@@ -5,7 +5,8 @@
     "email": "pamela.apolinario.borges@gmail.com",
     "endereco": "Av Manoel Marques de Jesus, 380 - Vila Xavier, Araraquara/SP"
 }
-// Ou
+
+// ou
 {   
     "_id": "",
     "nome": "nome",
@@ -18,6 +19,7 @@
         "estado": "SP"
     }
 }
+
 // ou
 {   
     "_id": "",
@@ -40,8 +42,13 @@
     ]
 }
 
+// Identificador de destino
 {
     "_id": "",
-    "nome": "nome destino",
-    "descricao": "Descricao do destino"
+    "nome": "Parque Ibirapuera",
+    "descricao": "Principal parque de São Paulo",
+    "localizacao": {
+        "type": "Point",
+        "coordinates [-46.661056, -23.587384]
+    }
 }
